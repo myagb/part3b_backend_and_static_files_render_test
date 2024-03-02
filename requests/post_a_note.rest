@@ -1,0 +1,17 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "content": "Learning REST is important",
+    "important": true
+}
+
+###
+
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "content": "Do not forget to eat"
+}
+
